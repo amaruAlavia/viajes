@@ -44,7 +44,7 @@
             </div>
         </div>
     </nav>
-<!--Carrousel con fotografias del sitio-->
+<!--Carrousel bootstrap JS 5.3.0 con fotografias del sitio-->
     <section id="b">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -105,7 +105,7 @@
                 <h2>DESTACADOS</h2>
                 <div class="col-md">
                     <div class="card">
-                        <img class="card-img-top" src="./assets/img/card1.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/card1.jpg" alt="Card1">
                         <div class="card-body">
                             <h4 class="card-title">Visita ya Las Torres del Paine.</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md">
                     <div class="card">
-                        <img class="card-img-top" src="./assets/img/card2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/card2.jpg" alt="Card2">
                         <div class="card-body">
                             <h4 class="card-title">Visita ya la Tercera Región.</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-md">
                     <div class="card">
-                        <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/card3.jpg" alt="Card3">
                         <div class="card-body">
                             <h4 class="card-title">Laguna Sejar en San Pedro de Atacama.</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-md">
                     <div class="card">
-                        <img class="card-img-top" src="./assets/img/card4.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./assets/img/card4.jpg" alt="4">
                         <div class="card-body">
                             <h4 class="card-title">El bosque nativo de la Patagonia.</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -142,7 +142,7 @@
             </div>
         </div>
     </section>
-<!--Sección cotacto co formulario-->
+<!--Sección contacto con formulario-->
     <section id="e">
         <div class="container">
             <div class="row">
@@ -160,7 +160,8 @@
                         <label for="exampleFormControlTextarea1">Mensaje</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary bg-info">Enviar</button>
+                    <!--Boton con tooltip-->
+                    <button type="submit" class="btn btn-primary bg-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Envia tus consultas. Te responderemos a la brevedad. Saludos">Enviar</button>
                 </form>
             </div>
         </div>
@@ -191,7 +192,8 @@
     </footer>
     <!--Hoja de funciones JS principal-->
     <script src="./assets/js/script.js"></script>
-    <!--Bootstrap JS 5.3-->
+    <!--Bootstrap JS 5.3.0-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 </html>
