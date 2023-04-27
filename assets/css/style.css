@@ -1,0 +1,64 @@
+/*Scroll*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Se aplica Fondo negro y color de texto blanco a todo el documento.*/
+body, .card-body{
+    background-color: black;
+    color: white;
+}
+
+/*Se aplica fondo de color celeste a varios elementos.*/
+.navbar, footer,i,.card-body{
+        background-color:rgb(41, 151, 164);
+}
+
+/*Los iconos de fontAwesome de color blanco y centrados.*/
+i{
+    text-align: center;
+    color:#ffffff;
+}
+
+/*Margen y padding para el pie de pagina.*/
+footer{
+    margin-top: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Margen para superior para las secciones.*/
+#c,#d,#e{
+    margin-top: 35px;
+}
+
+/*Margen inferior y alineación centrada para los títulos H2.*/
+h2{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/*Mangen inferior para elemetos del formulario.*/
+.form-group{
+    margin-bottom: 20px;
+}
+
+/*Corrección en la alineación de los parrafos de la sección quienes somos.*/
+.alineacioniz{
+    margin-left: -10px;
+}
+
+/*Margen general para espaciado entre parrafos de seccion quienes somos.*/
+.qsborde{
+    margin: 5px;
+}
+
+/*Fuente raleway para titulos H2 y H5.*/
+H2,H5{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Pequeño margen inferior para las cards.*/
+.card{
+    margin-bottom: 10px;
+}
